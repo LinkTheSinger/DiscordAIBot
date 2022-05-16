@@ -39,19 +39,23 @@ sad_words = ["sad", "depressed" , "unhappy", "angry" , "mad"]
 starter_encouragements = [
   "Cheer up!",
   "Hang in there! You got this!",
-  "Never give up mate! Keep pushing forward!",
+  "Never give up! Keep pushing forward!",
   "Celebrate Your Small Wins"
 ]
 
 if "responding" not in db.keys():
   db["responding"] = True
 
-happy_words = ["bird"]
+happy_words = ["bird", "awesome", "great", "amazing", "sweet", "nice", "beautiful", "kind", "considerate", "happy"]
 
 glad = [
-  "Birds are the best species on the planet",
-  "Birds are superior",
-  "Tobe FLY HIGH!! HIGH!! Ase to chi to namida de, hikaru tsubasa de ima zenbu zenbu okisatte tobe FLY! Takak FLY! Saihate no mirai e"
+  "Go confidently in the direction of your dreams. Live the life you have imagined.",
+  "Optimism is the faith that leads to achievement",
+  "Spread that kindness, mate!",
+  "You are the best!",
+  "Keep it up!",
+  "Fly High, and Soar the Skies!",
+  "Treat yo self!"
 ]
 
 cat_noises = [
